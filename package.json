@@ -1,21 +1,20 @@
 {
-    
     "name": "ts-react-snippets",
     "displayName": "ts-react-snippets",
     "description": "react typescript snippets by israel kusayev",
     "publisher": "IsraelKusayev",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "icon": "imaegs/tsxIcon.png",
     "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/israelKusayev/Ts-React-Snippets.git"
-      },
-      "keywords": [
+    },
+    "keywords": [
         "React",
         "Typescript",
-        "React Typescript"        
-      ],
+        "React Typescript"
+    ],
     "engines": {
         "vscode": "^1.39.0"
     },

@@ -4,7 +4,7 @@
     "description": "react typescript snippets by israel kusayev",
     "publisher": "IsraelKusayev",
     "version": "1.1.0",
-    "icon": "imaegs/tsxIcon.png",
+    "icon": "images/tsxIcon.png",
     "license": "MIT",
     "repository": {
         "type": "git",

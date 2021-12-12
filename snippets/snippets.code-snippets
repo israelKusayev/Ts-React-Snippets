@@ -1,0 +1,40 @@
+{
+	"React functional component": {
+		"prefix": "fc",
+		"body": [
+			"import React from 'react';",
+			"",
+			"interface ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/g}Props {$1}",
+			"",
+			"const ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/g}: React.FC<${TM_FILENAME_BASE/(.*)/${1:/capitalize}/g}Props> = (props) => {",
+			"  return (",
+			"    <>",
+			"      $2",
+			"    </>",
+			"  );",
+			"};",
+			"",
+			"export default ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/g};",
+			""
+		],
+		"description": "React functional component"
+	},
+	"React functional component no props": {
+		"prefix": "fcnp",
+		"body": [
+			"import React from 'react';",
+			"",
+			"const ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/g}: React.FC = () => {",
+			"  return (",
+			"    <>",
+			"      $2",
+			"    </>",
+			"  );",
+			"};",
+			"",
+			"export default ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/g};",
+			""
+		],
+		"description": "React functional component no props"
+	}
+}

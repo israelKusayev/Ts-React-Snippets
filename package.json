@@ -9,14 +9,14 @@
         "type": "git",
         "url": "https://github.com/israelKusayev/Ts-React-Snippets.git"
     },
-    "version": "1.6.0",
+    "version": "2.0.0",
     "keywords": [
         "React",
         "Typescript",
         "React Typescript"
     ],
     "engines": {
-        "vscode": "^1.20.0"
+        "vscode": "^1.63.0"
     },
     "categories": [
         "Snippets"
